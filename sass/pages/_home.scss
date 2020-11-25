@@ -1,0 +1,65 @@
+
+.bg-dark {
+    background: #333744;
+    height: 100vh;
+}
+
+.header-title {
+    text-align: center;
+    color: #F7F7FA;;
+    padding: 2.4rem;
+    font-size: 3.6rem;
+    margin-bottom: 5vh;
+}
+
+.centered-form {
+    margin: auto;
+
+    &__box {
+        box-shadow: 0px 0px 1.7rem .1rem #1D1F26;
+        background: #F7F7FA;
+        padding: 2.4rem;
+        width: 40rem;
+        max-width: 70%;
+        min-width: 10rem;
+        margin: auto;
+        margin-bottom: 4.4rem;
+    }
+
+    h1 {
+        margin-bottom: 2.4rem;
+        font-size: 3.2rem;
+    }
+
+    label {
+        font-size: 1.4rem;
+    }
+
+    input {
+        border: .1rem solid #eeeeee;
+        padding: 1.2rem;
+        outline: none;
+        margin-top: .4rem;
+        margin-bottom: 1.6rem;
+        width: 100%;
+    }
+
+    button, a {
+        display: inline-block;
+        text-align: center;
+        cursor: pointer;
+        padding: 1.2rem;
+        background: #7C5CBF;
+        text-decoration: none;
+        border: none;
+        color: white;
+        font-size: 1.6rem;
+        transition: all .3s;
+        width: 100%;
+    }
+
+    button:hover {
+        background: #6b47b8;
+    }
+
+}

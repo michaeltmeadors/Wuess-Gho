@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <title>Wuess Gho - Play</title>
+</head>
+
+<body>
+    <div class="game-header">
+        <div class="game-info">
+            <div class="game-info__item game-info__player1">Player 1: &nbsp; <span id="player1-name"></span></div>
+            <div class="game-info__item game-info__player2">Player 2: &nbsp; <span id="player2-name">{{displayName}}</span></div>
+            <div class="game-info__item game-info__code">Code: &nbsp; {{code}}</div>
+        </div>
+    </div>
+    
+    <div class="row u-width-100" id="play">
+        <div class="col-3-of-4 game">
+            <div class="grid">
+    
+                <!-- row -->
+                <div class="row u-width-100">
+                    <div class="col-1-of-6">
+                        <div class="choice choice--play">
+                            <input type="checkbox" class="choice__checkbox" id="choice-1">
+                            <label for="choice-1" class="choice__checkbox-label">
+                                <img src="{{choice1.imageUrl}}" class="choice__image">
+                                <span class="choice__name">{{choice1.name}}</span>
+                            </label>
+                        </div>
+                    </div>
+    
+                    <div class="col-1-of-6">
+                        <div class="choice choice--play">
+                            <input type="checkbox" class="choice__checkbox" id="choice-2">
+                            <label for="choice-2" class="choice__checkbox-label">
+                                <img src={{choice2.imageUrl}} class="choice__image">
+                                <span class="choice__name">{{choice2.name}}</span>
+                            </label>
+                        </div>
+                    </div>
+    
+                    <div class="col-1-of-6">
+                        <div class="choice choice--play">
+                            <input type="checkbox" class="choice__checkbox" id="choice-3">
+                            <label for="choice-3" class="choice__checkbox-label">
+                                <img src={{choice3.imageUrl}} class="choice__image">
+                                <span class="choice__name">{{choice3.name}}</span>
+                            </label>
+                        </div>
+                    </div>
+    
+                    <div class="col-1-of-6">
+                        <div class="choice choice--play">
+                            <input type="checkbox" class="choice__checkbox" id="choice-4">
+                            <label for="choice-4" class="choice__checkbox-label">
+                                <img src={{choice4.imageUrl}} class="choice__image">
+                                <span class="choice__name">{{choice4.name}}</span>
+                            </label>
+                        </div>
+                    </div>
+    
+                    <div class="col-1-of-6">
+                        <div class="choice choice--play">
+                            <input type="checkbox" class="choice__checkbox" id="choice-5">
+                            <label for="choice-5" class="choice__checkbox-label">
+                                <img src={{choice5.imageUrl}} class="choice__image">
+                                <span class="choice__name">{{choice5.name}}</span>
+                            </label>
+                        </div>
+                    </div>
+    
+                    <div class="col-1-of-6">
+                        <div class="choice choice--play">
+                            <input type="checkbox" class="choice__checkbox" id="choice-6">
+                            <label for="choice-6" class="choice__checkbox-label">
+                                <img src={{choice6.imageUrl}} class="choice__image">
+                                <span class="choice__name">{{choice6.name}}</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- row -->
+                <div class="row u-width-100">
+                    <div class="col-1-of-6">
+                        <div class="choice choice--play">
+                            <input type="checkbox" class="choice__checkbox" id="choice-7">
+                            <label for="choice-7" class="choice__checkbox-label">
+                                <img src={{choice7.imageUrl}} class="choice__image">
+                                <span class="choice__name">{{choice7.name}}</span>
+                            </label>
+                        </div>
+                    </div>
+    
+                    <div class="col-1-of-6">
+                        <div class="choice choice--play">
+                            <input type="checkbox" class="choice__checkbox" id="choice-8">
+                            <label for="choice-8" class="choice__checkbox-label">
+                                <img src={{choice8.imageUrl}} class="choice__image">
+                                <span class="choice__name">{{choice8.name}}</span>
+                            </label>
+                        </div>
+                    </div>
+    
+                    <div class="col-1-of-6">
+                        <div class="choice choice--play">
+                            <input type="checkbox" class="choice__checkbox" id="choice-9">
+                            <label for="choice-9" class="choice__checkbox-label">
+                                <img src={{choice9.imageUrl}} class="choice__image">
+                                <span class="choice__name">{{choice9.name}}</span>
+                            </label>
+                        </div>
+                    </div>
+    
+                    <div class="col-1-of-6">
+                        <div class="choice choice--play">
+                            <input type="checkbox" class="choice__checkbox" id="choice-10">
+                            <label for="choice-10" class="choice__checkbox-label">
+                                <img src={{choice10.imageUrl}} class="choice__image">
+                                <span class="choice__name">{{choice10.name}}</span>
+                            </label>
+                        </div>
+                    </div>
+    
+                    <div class="col-1-of-6">
+                        <div class="choice choice--play">
+                            <input type="checkbox" class="choice__checkbox" id="choice-11">
+                            <label for="choice-11" class="choice__checkbox-label">
+                                <img src={{choice11.imageUrl}} class="choice__image">
+                                <span class="choice__name">{{choice11.name}}</span>
+                            </label>
+                        </div>
+                    </div>
+    
+                    <div class="col-1-of-6">
+                        <div class="choice choice--play">
+                            <input type="checkbox" class="choice__checkbox" id="choice-12">
+                            <label for="choice-12" class="choice__checkbox-label">
+                                <img src={{choice12.imageUrl}} class="choice__image">
+                                <span class="choice__name">{{choice12.name}}</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- row -->
+                <div class="row u-width-100">
+                    <div class="col-1-of-6">
+                        <div class="choice choice--play">
+                            <input type="checkbox" class="choice__checkbox" id="choice-13">
+                            <label for="choice-13" class="choice__checkbox-label">
+                                <img src={{choice13.imageUrl}} class="choice__image">
+                                <span class="choice__name">{{choice13.name}}</span>
+                            </label>
+                        </div>
+                    </div>
+    
+                    <div class="col-1-of-6">
+                        <div class="choice choice--play">
+                            <input type="checkbox" class="choice__checkbox" id="choice-14">
+                            <label for="choice-14" class="choice__checkbox-label">
+                                <img src={{choice14.imageUrl}} class="choice__image">
+                                <span class="choice__name">{{choice14.name}}</span>
+                            </label>
+                        </div>
+                    </div>
+    
+                    <div class="col-1-of-6">
+                        <div class="choice choice--play">
+                            <input type="checkbox" class="choice__checkbox" id="choice-15">
+                            <label for="choice-15" class="choice__checkbox-label">
+                                <img src={{choice15.imageUrl}} class="choice__image">
+                                <span class="choice__name">{{choice15.name}}</span>
+                            </label>
+                        </div>
+                    </div>
+    
+                    <div class="col-1-of-6">
+                        <div class="choice choice--play">
+                            <input type="checkbox" class="choice__checkbox" id="choice-16">
+                            <label for="choice-16" class="choice__checkbox-label">
+                                <img src={{choice16.imageUrl}} class="choice__image">
+                                <span class="choice__name">{{choice16.name}}</span>
+                            </label>
+                        </div>
+                    </div>
+    
+                    <div class="col-1-of-6">
+                        <div class="choice choice--play">
+                            <input type="checkbox" class="choice__checkbox" id="choice-17">
+                            <label for="choice-17" class="choice__checkbox-label">
+                                <img src={{choice17.imageUrl}} class="choice__image">
+                                <span class="choice__name">{{choice17.name}}</span>
+                            </label>
+                        </div>
+                    </div>
+    
+                    <div class="col-1-of-6">
+                        <div class="choice choice--play">
+                            <input type="checkbox" class="choice__checkbox" id="choice-18">
+                            <label for="choice-18" class="choice__checkbox-label">
+                                <img src={{choice18.imageUrl}} class="choice__image">
+                                <span class="choice__name">{{choice18.name}}</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- row -->
+                <div class="row u-width-100">
+                    <div class="col-1-of-6">
+                        <div class="choice choice--play">
+                            <input type="checkbox" class="choice__checkbox" id="choice-19">
+                            <label for="choice-19" class="choice__checkbox-label">
+                                <img src={{choice19.imageUrl}} class="choice__image">
+                                <span class="choice__name">{{choice19.name}}</span>
+                            </label>
+                        </div>
+                    </div>
+    
+                    <div class="col-1-of-6">
+                        <div class="choice choice--play">
+                            <input type="checkbox" class="choice__checkbox" id="choice-20">
+                            <label for="choice-20" class="choice__checkbox-label">
+                                <img src={{choice20.imageUrl}} class="choice__image">
+                                <span class="choice__name">{{choice20.name}}</span>
+                            </label>
+                        </div>
+                    </div>
+    
+                    <div class="col-1-of-6">
+                        <div class="choice choice--play">
+                            <input type="checkbox" class="choice__checkbox" id="choice-21">
+                            <label for="choice-21" class="choice__checkbox-label">
+                                <img src={{choice21.imageUrl}} class="choice__image">
+                                <span class="choice__name">{{choice21.name}}</span>
+                            </label>
+                        </div>
+                    </div>
+    
+                    <div class="col-1-of-6">
+                        <div class="choice choice--play">
+                            <input type="checkbox" class="choice__checkbox" id="choice-22">
+                            <label for="choice-22" class="choice__checkbox-label">
+                                <img src={{choice22.imageUrl}} class="choice__image">
+                                <span class="choice__name">{{choice22.name}}</span>
+                            </label>
+                        </div>
+                    </div>
+    
+                    <div class="col-1-of-6">
+                        <div class="choice choice--play">
+                            <input type="checkbox" class="choice__checkbox" id="choice-23">
+                            <label for="choice-23" class="choice__checkbox-label">
+                                <img src={{choice23.imageUrl}} class="choice__image">
+                                <span class="choice__name">{{choice23.name}}</span>
+                            </label>
+                        </div>
+                    </div>
+    
+                    <div class="col-1-of-6">
+                        <div class="choice choice--play">
+                            <input type="checkbox" class="choice__checkbox" id="choice-24">
+                            <label for="choice-24" class="choice__checkbox-label">
+                                <img src={{choice24.imageUrl}} class="choice__image">
+                                <span class="choice__name">{{choice24.name}}</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    
+    
+        <div class="col-1-of-4">
+            <div class="chat">
+                <div id="messages" class="chat__messages"></div>
+    
+                <div class="chat__compose">
+                    <form id="message-form" class="chat__form">
+                        <div id="send-message" class="chat__send">
+                            <input name="message" type="text" required autocomplete="off" class="chat__input">
+                            <button class="chat__button">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <input type="hidden" id="displayName" value="{{displayName}}">
+    <input type="hidden" id="code" value={{code}}>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.6.0/qs.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/game.js"></script>
+</body>
+</html>

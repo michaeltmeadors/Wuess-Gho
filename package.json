@@ -1,0 +1,33 @@
+{
+  "name": "guess-who",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss public/css/styles.css -w",
+    "compile:sass": "node-sass sass/main.scss public/css/styles.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' public/css/styles.comp.css -o public/css/styles.prefix.css",
+    "compress:css": "node-sass public/css/styles.prefix.css public/css/styles.css --output-style compressed",
+    "build:css": "npm-run-all compile:sass prefix:css compress:css",
+    "start": "npm",
+    "dev": "nodemon src/index.js -e js,html,css,scss,hbs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "handlebars": "^4.7.6",
+    "hbs": "^4.1.1",
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "postcss": "^8.1.10",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.2",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^8.3.0"
+  }
+}

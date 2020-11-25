@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Wuess Gho - Create Game</title>
+</head>
+
+
+<body>
+    <header>
+        <div class="navbar">
+            <a href="index.html" class="navbar__item navbar__link"><i class="fa fa-home"></i></a>
+            <div class="navbar__item navbar__dropdown">
+                <button class="navbar__dropbtn">Templates
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="navbar__dropdown-content" id="template-dropdown-content">
+                    <span id="template-1" class="navbar__dropdown-item">Animals</span>
+                    <span id="template-2" class="navbar__dropdown-item">Mario</span>
+                    <span id="template-3" class="navbar__dropdown-item">Star Wars</span>
+                    <span id="template-4" class="navbar__dropdown-item">Dinsey Villains</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <form id="edit-form" action="/host" method="POST">
+        <div class="grid">
+
+            <div class="row">
+                <div class="col-1-of-8">
+                    <div class="choice choice--edit">
+                        <img src="img/placeholder-img.png" class="choice__image">
+                        <div class="choice__info">
+                            <input type="text" name="choice-name-1" placeholder="Name">
+                            <input type="text" name="choice-imageUrl-1" placeholder="Image address">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-of-8">
+                    <div class="choice choice--edit">
+                        <img src="img/placeholder-img.png" class="choice__image">
+                        <div class="choice__info">
+                            <input type="text" name="choice-name-2" placeholder="Name">
+                            <input type="text" name="choice-imageUrl-2" placeholder="Image address">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-of-8">
+                    <div class="choice choice--edit">
+                        <img src="img/placeholder-img.png" class="choice__image">
+                        <div class="choice__info">
+                            <input type="text" name="choice-name-3" placeholder="Name">
+                            <input type="text" name="choice-imageUrl-3" placeholder="Image address">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-of-8">
+                    <div class="choice choice--edit">
+                        <img src="img/placeholder-img.png" class="choice__image">
+                        <div class="choice__info">
+                            <input type="text" name="choice-name-4" placeholder="Name">
+                            <input type="text" name="choice-imageUrl-4" placeholder="Image address">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-of-8">
+                    <div class="choice choice--edit">
+                        <img src="img/placeholder-img.png" class="choice__image">
+                        <div class="choice__info">
+                            <input type="text" name="choice-name-5" placeholder="Name">
+                            <input type="text" name="choice-imageUrl-5" placeholder="Image address">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-of-8">
+                    <div class="choice choice--edit">
+                        <img src="img/placeholder-img.png" class="choice__image">
+                        <div class="choice__info">
+                            <input type="text" name="choice-name-6" placeholder="Name">
+                            <input type="text" name="choice-imageUrl-6" placeholder="Image address">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-of-8">
+                    <div class="choice choice--edit">
+                        <img src="img/placeholder-img.png" class="choice__image">
+                        <div class="choice__info">
+                            <input type="text" name="choice-name-7" placeholder="Name">
+                            <input type="text" name="choice-imageUrl-7" placeholder="Image address">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-of-8">
+                    <div class="choice choice--edit">
+                        <img src="img/placeholder-img.png" class="choice__image">
+                        <div class="choice__info">
+                            <input type="text" name="choice-name-8" placeholder="Name">
+                            <input type="text" name="choice-imageUrl-8" placeholder="Image address">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-1-of-8">
+                    <div class="choice choice--edit">
+                        <img src="img/placeholder-img.png" class="choice__image">
+                        <div class="choice__info">
+                            <input type="text" name="choice-name-9" placeholder="Name">
+                            <input type="text" name="choice-imageUrl-9" placeholder="Image address">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-of-8">
+                    <div class="choice choice--edit">
+                        <img src="img/placeholder-img.png" class="choice__image">
+                        <div class="choice__info">
+                            <input type="text" name="choice-name-10" placeholder="Name">
+                            <input type="text" name="choice-imageUrl-10" placeholder="Image address">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-of-8">
+                    <div class="choice choice--edit">
+                        <img src="img/placeholder-img.png" class="choice__image">
+                        <div class="choice__info">
+                            <input type="text" name="choice-name-11" placeholder="Name">
+                            <input type="text" name="choice-imageUrl-11" placeholder="Image address">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-of-8">
+                    <div class="choice choice--edit">
+                        <img src="img/placeholder-img.png" class="choice__image">
+                        <div class="choice__info">
+                            <input type="text" name="choice-name-12" placeholder="Name">
+                            <input type="text" name="choice-imageUrl-12" placeholder="Image address">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-of-8">
+                    <div class="choice choice--edit">
+                        <img src="img/placeholder-img.png" class="choice__image">
+                        <div class="choice__info">
+                            <input type="text" name="choice-name-13" placeholder="Name">
+                            <input type="text" name="choice-imageUrl-13" placeholder="Image address">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-of-8">
+                    <div class="choice choice--edit">
+                        <img src="img/placeholder-img.png" class="choice__image">
+                        <div class="choice__info">
+                            <input type="text" name="choice-name-14" placeholder="Name">
+                            <input type="text" name="choice-imageUrl-14" placeholder="Image address">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-of-8">
+                    <div class="choice choice--edit">
+                        <img src="img/placeholder-img.png" class="choice__image">
+                        <div class="choice__info">
+                            <input type="text" name="choice-name-15" placeholder="Name">
+                            <input type="text" name="choice-imageUrl-15" placeholder="Image address">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-of-8">
+                    <div class="choice choice--edit">
+                        <img src="img/placeholder-img.png" class="choice__image">
+                        <div class="choice__info">
+                            <input type="text" name="choice-name-16" placeholder="Name">
+                            <input type="text" name="choice-imageUrl-16" placeholder="Image address">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-1-of-8">
+                    <div class="choice choice--edit">
+                        <img src="img/placeholder-img.png" class="choice__image">
+                        <div class="choice__info">
+                            <input type="text" name="choice-name-17" placeholder="Name">
+                            <input type="text" name="choice-imageUrl-17" placeholder="Image address">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-of-8">
+                    <div class="choice choice--edit">
+                        <img src="img/placeholder-img.png" class="choice__image">
+                        <div class="choice__info">
+                            <input type="text" name="choice-name-18" placeholder="Name">
+                            <input type="text" name="choice-imageUrl-18" placeholder="Image address">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-of-8">
+                    <div class="choice choice--edit">
+                        <img src="img/placeholder-img.png" class="choice__image">
+                        <div class="choice__info">
+                            <input type="text" name="choice-name-19" placeholder="Name">
+                            <input type="text" name="choice-imageUrl-19" placeholder="Image address">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-of-8">
+                    <div class="choice choice--edit">
+                        <img src="img/placeholder-img.png" class="choice__image">
+                        <div class="choice__info">
+                            <input type="text" name="choice-name-20" placeholder="Name">
+                            <input type="text" name="choice-imageUrl-20" placeholder="Image address">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-of-8">
+                    <div class="choice choice--edit">
+                        <img src="img/placeholder-img.png" class="choice__image">
+                        <div class="choice__info">
+                            <input type="text" name="choice-name-21" placeholder="Name">
+                            <input type="text" name="choice-imageUrl-21" placeholder="Image address">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-of-8">
+                    <div class="choice choice--edit">
+                        <img src="img/placeholder-img.png" class="choice__image">
+                        <div class="choice__info">
+                            <input type="text" name="choice-name-22" placeholder="Name">
+                            <input type="text" name="choice-imageUrl-22" placeholder="Image address">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-of-8">
+                    <div class="choice choice--edit">
+                        <img src="img/placeholder-img.png" class="choice__image">
+                        <div class="choice__info">
+                            <input type="text" name="choice-name-23" placeholder="Name">
+                            <input type="text" name="choice-imageUrl-23" placeholder="Image address">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-of-8">
+                    <div class="choice choice--edit">
+                        <img src="img/placeholder-img.png" class="choice__image">
+                        <div class="choice__info">
+                            <input type="text" name="choice-name-24" placeholder="Name">
+                            <input type="text" name="choice-imageUrl-24" placeholder="Image address">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="form-block">
+                <div class="label-input">
+                    <label for="displayName">Display name</label>
+                    <input type="text" name="displayName" id="displayName" required maxlength="20">
+                </div>
+                <div class="label-input">
+                    <label for="code">Game code</label>
+                    <input type="text" name="code" id="code" required maxlength="20">
+                </div>
+                <button type="submit" class="btn">Start a game</button>
+            </div>
+        </div>
+    </form>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.6.0/qs.min.js"></script>
+    <script type="text/javascript" src="js/edit.js"></script>
+</body>
+
+</html>

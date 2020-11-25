@@ -1,0 +1,408 @@
+{
+    "templates": [
+        {
+            "name": "Animals",
+            "choices": [
+                {
+                    "name": "Ant",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Bullant_head_detail.jpg/440px-Bullant_head_detail.jpg"
+                },
+                {
+                    "name": "Alligator",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/American_Alligator.jpg/440px-American_Alligator.jpg"
+                },
+                {
+                    "name": "Bee",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Tetragonula_carbonaria_%2814521993792%29.jpg/440px-Tetragonula_carbonaria_%2814521993792%29.jpg"
+                },
+                {
+                    "name": "Beaver",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/American_Beaver.jpg/440px-American_Beaver.jpg"
+                },
+                {
+                    "name": "Dolphin",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Tursiops_truncatus_01.jpg/440px-Tursiops_truncatus_01.jpg"
+                },
+                {
+                    "name": "Elephant",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/African_Bush_Elephant.jpg/440px-African_Bush_Elephant.jpg"
+                },
+                {
+                    "name": "Flamingo",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flamingos_Laguna_Colorada.jpg/440px-Flamingos_Laguna_Colorada.jpg"
+                },
+                {
+                    "name": "Frog",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/European_Common_Frog_Rana_temporaria.jpg/440px-European_Common_Frog_Rana_temporaria.jpg"
+                },
+                {
+                    "name": "Giraffe",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Giraffe_Mikumi_National_Park.jpg/440px-Giraffe_Mikumi_National_Park.jpg"
+                },
+                {
+                    "name": "Great White Shark",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/White_shark.jpg/480px-White_shark.jpg"
+                },
+                {
+                    "name": "Grizzly Bear",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/GrizzlyBearJeanBeaufort.jpg/440px-GrizzlyBearJeanBeaufort.jpg"
+                },
+                {
+                    "name": "Hippopotamus",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Hipopótamo_%28Hippopotamus_amphibius%29%2C_parque_nacional_de_Chobe%2C_Botsuana%2C_2018-07-28%2C_DD_82.jpg/440px-Hipopótamo_%28Hippopotamus_amphibius%29%2C_parque_nacional_de_Chobe%2C_Botsuana%2C_2018-07-28%2C_DD_82.jpg"
+                },
+                {
+                    "name": "Jellyfish",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Jelly_cc11.jpg/440px-Jelly_cc11.jpg"
+                },
+                {
+                    "name": "Kangaroo",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Kangaroo_Australia_01_11_2008_-_retouch.JPG/440px-Kangaroo_Australia_01_11_2008_-_retouch.JPG"
+                },
+                {
+                    "name": "Komodo Dragon",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Komodo_dragon_%28Varanus_komodoensis%29.jpg/440px-Komodo_dragon_%28Varanus_komodoensis%29.jpg"
+                },
+                {
+                    "name": "Lion",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/440px-Lion_waiting_in_Namibia.jpg"
+                },
+                {
+                    "name": "Moose",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Moose_superior.jpg/440px-Moose_superior.jpg"
+                },
+                {
+                    "name": "Panda",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/440px-Grosser_Panda.JPG"
+                },
+                {
+                    "name": "Penguin",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/South_Shetland-2016-Deception_Island–Chinstrap_penguin_%28Pygoscelis_antarctica%29_04.jpg/440px-South_Shetland-2016-Deception_Island–Chinstrap_penguin_%28Pygoscelis_antarctica%29_04.jpg"
+                },
+                {
+                    "name": "Polar Bear",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Polar_Bear_-_Alaska_%28cropped%29.jpg/440px-Polar_Bear_-_Alaska_%28cropped%29.jpg"
+                },
+                {
+                    "name": "Platypus",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Schnabeltier_1.jpg/440px-Schnabeltier_1.jpg"
+                },
+                {
+                    "name": "Tiger",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Bengal_tiger_%28Panthera_tigris_tigris%29_female_3_crop.jpg/440px-Bengal_tiger_%28Panthera_tigris_tigris%29_female_3_crop.jpg"
+                },
+                {
+                    "name": "Tortoise",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/A._gigantea_Aldabra_Giant_Tortoise.jpg/440px-A._gigantea_Aldabra_Giant_Tortoise.jpg"
+                },
+                {
+                    "name": "Wolf",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Kolmården_Wolf.jpg/440px-Kolmården_Wolf.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Mario",
+            "choices": [
+                {
+                    "name": "Birdo",
+                    "imageUrl": "https://www.mariowiki.com/images/thumb/e/ed/MP9_Birdo_Main_Artwork.png/340px-MP9_Birdo_Main_Artwork.png"
+                },
+                {
+                    "name": "Bob-omb",
+                    "imageUrl": "https://www.mariowiki.com/images/thumb/9/9e/Bobomb_-_MarioPartyStarRush.png/400px-Bobomb_-_MarioPartyStarRush.png"
+                },
+                {
+                    "name": "Boo",
+                    "imageUrl": "https://www.mariowiki.com/images/a/a1/Boo_CTTT.png"
+                },
+                {
+                    "name": "Bowser",
+                    "imageUrl": "https://www.mariowiki.com/images/7/7d/MSOGT_Bowser.png"
+                },
+                {
+                    "name": "Bowser Jr.",
+                    "imageUrl": "https://www.mariowiki.com/images/thumb/6/6c/MP9_Bowser_Jr_Artwork.png/500px-MP9_Bowser_Jr_Artwork.png"
+                },
+                {
+                    "name": "Chain Chomp",
+                    "imageUrl": "https://www.mariowiki.com/images/2/2a/DMW-ChainChomp.png"
+                },
+                {
+                    "name": "Daisy",
+                    "imageUrl": "https://www.mariowiki.com/images/9/90/MKT_Artwork_Daisy.png"
+                },
+                {
+                    "name": "Goomba",
+                    "imageUrl": "https://www.mariowiki.com/images/thumb/9/9c/Goomba_-_MarioPartyStarRush.png/400px-Goomba_-_MarioPartyStarRush.png"
+                },
+                {
+                    "name": "Koopa",
+                    "imageUrl": "https://www.mariowiki.com/images/thumb/5/5c/SuperMarioParty_KoopaTroopa.png/398px-SuperMarioParty_KoopaTroopa.png"
+                },
+                {
+                    "name": "Lakitu",
+                    "imageUrl": "https://www.mariowiki.com/images/thumb/8/87/NSMBU_Lakitu_Artwork.png/400px-NSMBU_Lakitu_Artwork.png"
+                },
+                {
+                    "name": "Luigi",
+                    "imageUrl": "https://www.mariowiki.com/images/thumb/e/e1/Luigi_New_Super_Mario_Bros_U_Deluxe.png/400px-Luigi_New_Super_Mario_Bros_U_Deluxe.png"
+                },
+                {
+                    "name": "Luma",
+                    "imageUrl": "https://www.mariowiki.com/images/thumb/b/b7/SMG_YellowLuma.jpg/400px-SMG_YellowLuma.jpg"
+                },
+                {
+                    "name": "Mario",
+                    "imageUrl": "https://www.mariowiki.com/images/thumb/2/25/Mario_New_Super_Mario_Bros_U_Deluxe.png/400px-Mario_New_Super_Mario_Bros_U_Deluxe.png"
+                },
+                {
+                    "name": "Pauline",
+                    "imageUrl": "https://www.mariowiki.com/images/1/11/MKT_Artwork_Pauline.png"
+                },
+                {
+                    "name": "Peach",
+                    "imageUrl": "https://www.mariowiki.com/images/thumb/b/b7/SuperMarioParty_Peach_2.png/350px-SuperMarioParty_Peach_2.png"
+                },
+                {
+                    "name": "Petey Piranha",
+                    "imageUrl": "https://www.mariowiki.com/images/thumb/2/22/MPSR_Petey_Piranha.png/430px-MPSR_Petey_Piranha.png"
+                },
+                {
+                    "name": "Rosalina",
+                    "imageUrl": "https://www.mariowiki.com/images/thumb/5/56/Rosalina-MPTop100-Transparent.png/360px-Rosalina-MPTop100-Transparent.png"
+                },
+                {
+                    "name": "Shy Guy",
+                    "imageUrl": "https://www.mariowiki.com/images/thumb/7/70/ShyGuyCTTT_artwork.png/450px-ShyGuyCTTT_artwork.png"
+                },
+                {
+                    "name": "Toad",
+                    "imageUrl": "https://www.mariowiki.com/images/thumb/d/db/SMR_Toad.png/340px-SMR_Toad.png"
+                },
+                {
+                    "name": "Toadette",
+                    "imageUrl": "https://www.mariowiki.com/images/thumb/b/bf/NewSuperMarioBrosUDeluxe_Toadette.png/390px-NewSuperMarioBrosUDeluxe_Toadette.png"
+                },
+                {
+                    "name": "Toadsworth",
+                    "imageUrl": "https://www.mariowiki.com/images/thumb/5/5b/SMS_Toadsworth_Artwork.png/300px-SMS_Toadsworth_Artwork.png"
+                },
+                {
+                    "name": "Waluigi",
+                    "imageUrl": "https://www.mariowiki.com/images/thumb/2/27/SuperMarioParty_Waluigi.png/450px-SuperMarioParty_Waluigi.png"
+                },
+                {
+                    "name": "Wario",
+                    "imageUrl": "https://www.mariowiki.com/images/thumb/2/29/SMPWario.png/500px-SMPWario.png"
+                },
+                {
+                    "name": "Yoshi",
+                    "imageUrl": "https://www.mariowiki.com/images/thumb/4/4d/Yoshi_-_Mario_Party_10.png/400px-Yoshi_-_Mario_Party_10.png"
+                }
+            ]
+        },
+        {
+            "name": "Star Wars",
+            "choices": [
+                {
+                    "name": "Admiral Ackbar",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6e/AckbarStanding.jpg"
+                },
+                {
+                    "name": "BB-8",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/39/BB-8%2C_Star_Wars_The_Force_Awakens.jpg"
+                },
+                {
+                    "name": "Boba Fett",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3e/FettbobaJB.png"
+                },
+                {
+                    "name": "Chewbacca",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6d/Chewbacca-2-.jpg"
+                },
+                {
+                    "name": "Count Dooku",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/bd/Count_Dooku.png"
+                },
+                {
+                    "name": "C3PO",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5c/C-3PO_droid.png"
+                },
+                {
+                    "name": "Darth Maul",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/bf/Darth_Maul.png"
+                },
+                {
+                    "name": "Darth Vader",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/76/Darth_Vader.jpg"
+                },
+                {
+                    "name": "Emperor Palpatine",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8f/Emperor_RotJ.png"
+                },
+                {
+                    "name": "Finn",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/2a/Finn-Force_Awakens_%282015%29.png"
+                },
+                {
+                    "name": "General Grievous",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/58/GeneralGrievous.png"
+                },
+                {
+                    "name": "Han Solo",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/be/Han_Solo_depicted_in_promotional_image_for_Star_Wars_%281977%29.jpg"
+                },
+                {
+                    "name": "Jar Jar Binks",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4b/Jjportrait.jpg"
+                },
+                {
+                    "name": "Kylo Ren",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/34/Kylo_Ren.png"
+                },
+                {
+                    "name": "Lando Calrissian",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/cb/Lando6-2.jpg"
+                },
+                {
+                    "name": "Leia Organa",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1b/Princess_Leia%27s_characteristic_hairstyle.jpg"
+                },
+                {
+                    "name": "Luke Skywalker",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9b/Luke_Skywalker.png"
+                },
+                {
+                    "name": "Mace Windu",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/bf/Mace_Windu.png"
+                },
+                {
+                    "name": "Obi-Wan Kenobi",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/32/Ben_Kenobi.png"
+                },
+                {
+                    "name": "Padmé Amadala",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/ee/Amidala.png"
+                },
+                {
+                    "name": "Qui-Gon Jinn",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/ad/Qui-Gon_Jinn.png"
+                },
+                {
+                    "name": "Rey",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/af/Rey_Star_Wars.png"
+                },
+                {
+                    "name": "R2-D2",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/39/R2-D2_Droid.png"
+                },
+                {
+                    "name": "Yoda",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9b/Yoda_Empire_Strikes_Back.png"
+                }
+            ]
+        },
+        {
+            "name": "Disney Villains",
+            "choices": [
+                {
+                    "name": "Alameda Slim",
+                    "imageUrl": "https://static.wikia.nocookie.net/disney/images/8/83/Home-on-the-range-disneyscreencaps.com-3309.jpg"
+                },
+                {
+                    "name": "Captain Hook",
+                    "imageUrl": "https://static.wikia.nocookie.net/disney/images/0/0b/Profile_-_Captain_Hook.jpeg"
+                },
+                {
+                    "name": "Claude Frollo",
+                    "imageUrl": "https://static.wikia.nocookie.net/disney/images/6/64/Judge_Frollo.jpg"
+                },
+                {
+                    "name": "Clayton",
+                    "imageUrl": "https://static.wikia.nocookie.net/disney/images/e/e2/Clayton_profile_.jpg"
+                },
+                {
+                    "name": "Cruella de Vil",
+                    "imageUrl": "https://static.wikia.nocookie.net/disney/images/9/92/Profile_-_Cruella.png"
+                },
+                {
+                    "name": "Dr. Facilier",
+                    "imageUrl": "https://static.wikia.nocookie.net/disney/images/3/3f/Profile_-_Dr._Facilier.jpeg"
+                },
+                {
+                    "name": "Gantu",
+                    "imageUrl": "https://static.wikia.nocookie.net/disney/images/5/50/Profile_-_Captain_Gantu.jpeg"
+                },
+                {
+                    "name": "Gaston",
+                    "imageUrl": "https://static.wikia.nocookie.net/disney/images/d/d4/Profile_-_Gaston.jpeg"
+                },
+                {
+                    "name": "Hades",
+                    "imageUrl": "https://static.wikia.nocookie.net/disney/images/2/2c/Profile_-_Hades.jpeg"
+                },
+                {
+                    "name": "Hans",
+                    "imageUrl": "https://static.wikia.nocookie.net/disney/images/e/ee/Profile_-_Hans.jpeg"
+                },
+                {
+                    "name": "Jafar",
+                    "imageUrl": "https://static.wikia.nocookie.net/disney/images/6/60/Profile_-_Jafar.jpeg"
+                },
+                {
+                    "name": "King Candy",
+                    "imageUrl": "https://static.wikia.nocookie.net/disney/images/e/ee/Profile_-_King_Candy.jpeg"
+                },
+                {
+                    "name": "Lady Tremaine",
+                    "imageUrl": "https://static.wikia.nocookie.net/disney/images/4/42/Profile_-_Lady_Tremaine.jpeg"
+                },
+                {
+                    "name": "Maleficent",
+                    "imageUrl": "https://static.wikia.nocookie.net/disney/images/0/05/Profile_-_Maleficent.jpeg"
+                },
+                {
+                    "name": "Mother Gothel",
+                    "imageUrl": "https://static.wikia.nocookie.net/disney/images/f/f9/Profile_-_Mother_Gothel.jpeg"
+                },
+                {
+                    "name": "Prince John",
+                    "imageUrl": "https://static.wikia.nocookie.net/disney/images/b/b1/Prince_John_Disney.jpg"
+                },
+                {
+                    "name": "Queen of Hearts",
+                    "imageUrl": "https://static.wikia.nocookie.net/disney/images/6/61/Profile_-_Queen_of_Hearts.jpeg"
+                },
+                {
+                    "name": "Ratcliffe",
+                    "imageUrl": "https://static.wikia.nocookie.net/disney/images/7/79/Profile_-_Governor_Ratcliffe.png"
+                },
+                {
+                    "name": "Scar",
+                    "imageUrl": "https://static.wikia.nocookie.net/disney/images/6/66/Profile_-_Scar.jpeg"
+                },
+                {
+                    "name": "Shan Yu",
+                    "imageUrl": "https://static.wikia.nocookie.net/disney/images/d/da/Profile_-_Shan_Yu.jpeg"
+                },
+                {
+                    "name": "Shere Khan",
+                    "imageUrl": "https://static.wikia.nocookie.net/disney/images/9/93/Profile_-_Shere_Khan.jpeg"
+                },
+                {
+                    "name": "The Evil Queen",
+                    "imageUrl": "https://static.wikia.nocookie.net/disney/images/8/89/Profile_-_The_Evil_Queen.jpeg"
+                },
+                {
+                    "name": "Ursula",
+                    "imageUrl": "https://static.wikia.nocookie.net/disney/images/7/72/Profile_-_Ursula.jpeg"
+                },
+                {
+                    "name": "Yzma",
+                    "imageUrl": "https://static.wikia.nocookie.net/disney/images/f/f2/Profile_-_Yzma.jpeg"
+                }
+            ]
+        }
+    ]
+}

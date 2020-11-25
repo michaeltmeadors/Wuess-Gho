@@ -1,0 +1,36 @@
+.game-info {
+    font-size: 1.6rem;
+    margin: auto 0;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+
+    &__item {
+        display: inline-block;
+        padding: 1rem 2rem;
+        // border: solid 1px green;
+        margin: 1rem;
+        border-radius: 1.4rem;
+
+        &:first-child {
+            margin-left: $gutter-vertical;;
+        }
+    }
+
+    &__player1 {
+        background-color: #B22222;
+        color: white;
+        float: left;
+        @include clearfix;
+    }
+
+    &__player2 {
+        background-color: #1E90FF;
+        color: white;
+    }
+
+    &__code {
+        background-color: #eee;
+        color: black;
+    }
+}

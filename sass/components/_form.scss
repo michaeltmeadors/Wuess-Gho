@@ -1,0 +1,52 @@
+
+.form-block {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    text-align: center;
+
+    @include respond(tab-port) {
+        margin-top: 2rem;
+    }
+
+    .label-input {
+        display: inline-block;
+        margin-right: 2rem;
+    }
+
+    label {
+        text-align: left;
+        font-size: 1.4rem;
+        display: block;
+        margin-bottom: .5rem;
+    }
+
+    input {
+        font-size: 1.6rem;
+        padding: .2rem;
+        display: block;
+    }
+
+    .btn {
+        color: white;
+        background-color: #7C5CBF;
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1.5rem 3rem;
+        display: inline-block;
+        border-radius: 5rem;
+        transition: all .2s;
+        border: none;
+        cursor: pointer;
+
+        @include respond(phone) {
+            margin-top: 1rem;
+        }
+
+        &:hover {
+            background-color: #6b47b8;
+            transform: translateY(-.1rem);
+            box-shadow: 0 1rem 2rem rgba(#000000, .2);
+        }
+    }
+}

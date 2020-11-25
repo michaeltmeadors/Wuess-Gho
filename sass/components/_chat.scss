@@ -1,0 +1,93 @@
+.chat {
+    background-color: #eeeeee;
+    position: relative;
+    height: 93vh;
+    margin: 0;
+    padding-bottom: 1rem;
+
+    @include respond(tab-port) {
+        height: 33vh;
+    }
+
+    &__messages {
+        padding: 2.4rem 2.4rem 0 2.4rem;
+        overflow-y: scroll;
+        height: 90%;
+    }
+
+    &__compose {
+       height: 10%;
+       position: relative;
+    }
+
+    &__send {
+        width: 90%;
+        @include absCenter;
+    }
+
+    &__input {
+        width: 75%;
+        font-family: inherit;
+        font-size: 1.6rem;
+        padding: 1rem 1.5rem;
+        border-radius: 2px;
+        display: inline-block;
+        margin-right: 2rem;
+        border: none;
+        border-top: 3px solid transparent;
+        border-bottom: 3px solid transparent;
+        transition: all .2s;
+
+        @include respond(tab-land) {
+            margin-right: 0rem;
+            margin-bottom: 1rem;
+            width: 100%;
+        }
+
+        @include respond(tab-port) {
+            font-size: 1.2rem;
+            margin-right: 2rem;
+            width: 80%;
+        }
+
+
+         &:focus {
+            outline: none;
+            box-shadow: 0 1rem 2rem rgba(black, .1);
+            border-bottom: 3px solid #7C5CBF;
+        }
+    }
+
+    &__button {
+        font-size: 1.6rem;
+        padding: 1rem 1.5rem;
+        background-color: #7C5CBF;
+        color: white;
+        display: inline-block;
+        border-radius: 2px;
+        border: none;
+        cursor: pointer;
+        transition: all .2s;
+
+        &:hover {
+            background-color: #6b47b8;
+            box-shadow: 0 1rem 2rem rgba(#000000, .2);
+        }
+
+    }
+
+    &__messages {
+        overflow-y: scroll;
+    }
+}
+
+.message {
+    margin-bottom: 1.6rem;
+    font-size: 1.6rem;
+}
+
+.message__name {
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-right: .8rem;
+}

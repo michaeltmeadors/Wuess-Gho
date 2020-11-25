@@ -1,0 +1,21 @@
+#play {
+    margin-bottom: 0;
+}
+
+.game {
+    padding-left: $gutter-horizontal;
+}
+
+.game-header {
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+
+.game-info {
+    &__item {
+        @include respond(phone) {
+            font-size: 1.2rem;
+        }
+    }
+}

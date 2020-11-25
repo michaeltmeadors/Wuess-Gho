@@ -1,0 +1,401 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+  @media only screen and (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media only screen and (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media only screen and (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
+
+body {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Lato", sans-serif; }
+
+.u-width-100 {
+  max-width: 100% !important; }
+
+.chat {
+  background-color: #eeeeee;
+  position: relative;
+  height: 93vh;
+  margin: 0;
+  padding-bottom: 1rem; }
+  @media only screen and (max-width: 56.25em) {
+    .chat {
+      height: 33vh; } }
+  .chat__messages {
+    padding: 2.4rem 2.4rem 0 2.4rem;
+    overflow-y: scroll;
+    height: 90%; }
+  .chat__compose {
+    height: 10%;
+    position: relative; }
+  .chat__send {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .chat__input {
+    width: 75%;
+    font-family: inherit;
+    font-size: 1.6rem;
+    padding: 1rem 1.5rem;
+    border-radius: 2px;
+    display: inline-block;
+    margin-right: 2rem;
+    border: none;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    transition: all .2s; }
+    @media only screen and (max-width: 75em) {
+      .chat__input {
+        margin-right: 0rem;
+        margin-bottom: 1rem;
+        width: 100%; } }
+    @media only screen and (max-width: 56.25em) {
+      .chat__input {
+        font-size: 1.2rem;
+        margin-right: 2rem;
+        width: 80%; } }
+    .chat__input:focus {
+      outline: none;
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+      border-bottom: 3px solid #7C5CBF; }
+  .chat__button {
+    font-size: 1.6rem;
+    padding: 1rem 1.5rem;
+    background-color: #7C5CBF;
+    color: white;
+    display: inline-block;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    transition: all .2s; }
+    .chat__button:hover {
+      background-color: #6b47b8;
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+  .chat__messages {
+    overflow-y: scroll; }
+
+.message {
+  margin-bottom: 1.6rem;
+  font-size: 1.6rem; }
+
+.message__name {
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-right: .8rem; }
+
+.choice {
+  overflow: scroll;
+  text-align: center; }
+  .choice--edit .choice__image {
+    height: 12rem;
+    width: 12rem;
+    object-fit: contain; }
+  .choice--play .choice__image {
+    height: 15rem;
+    width: 15rem;
+    cursor: pointer;
+    transition: all .2s;
+    object-fit: contain; }
+    .choice--play .choice__image:hover {
+      box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.2); }
+    @media only screen and (max-width: 75em) {
+      .choice--play .choice__image {
+        height: 13rem;
+        width: 13rem; } }
+    @media only screen and (max-width: 56.25em) {
+      .choice--play .choice__image {
+        height: 12rem;
+        width: 12rem; } }
+  .choice__image {
+    display: block;
+    margin: 0 auto;
+    border-radius: 3px;
+    overflow: hidden; }
+  .choice__info {
+    width: 95%;
+    margin: 0 auto; }
+    .choice__info label {
+      font-size: 1.4rem;
+      display: block;
+      margin-top: 1rem; }
+      @media only screen and (max-width: 37.5em) {
+        .choice__info label {
+          font-size: 1rem; } }
+    .choice__info input {
+      font-family: inherit;
+      width: 100%;
+      font-size: 1.6rem;
+      display: block;
+      margin-top: 1rem;
+      padding: .2rem .5rem;
+      outline: none; }
+      @media only screen and (max-width: 37.5em) {
+        .choice__info input {
+          font-size: 1.2rem; } }
+  .choice__name {
+    font-size: 1.6rem;
+    margin-top: .8rem;
+    display: inline-block;
+    cursor: pointer; }
+  .choice__checkbox {
+    display: none; }
+  .choice__checkbox:checked + .choice__checkbox-label .choice__image {
+    opacity: .1; }
+  .choice__checkbox:checked + .choice__checkbox-label .choice__name {
+    text-decoration: line-through; }
+  .choice__checkbox:not(:checked) + .choice__checkbox-label .choice__image {
+    opacity: 1; }
+  .choice__checkbox:not(:checked) + .choice__checkbox-label .choice__name {
+    text-decoration: none; }
+
+.form-block {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  text-align: center; }
+  @media only screen and (max-width: 56.25em) {
+    .form-block {
+      margin-top: 2rem; } }
+  .form-block .label-input {
+    display: inline-block;
+    margin-right: 2rem; }
+  .form-block label {
+    text-align: left;
+    font-size: 1.4rem;
+    display: block;
+    margin-bottom: .5rem; }
+  .form-block input {
+    font-size: 1.6rem;
+    padding: .2rem;
+    display: block; }
+  .form-block .btn {
+    color: white;
+    background-color: #7C5CBF;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 3rem;
+    display: inline-block;
+    border-radius: 5rem;
+    transition: all .2s;
+    border: none;
+    cursor: pointer; }
+    @media only screen and (max-width: 37.5em) {
+      .form-block .btn {
+        margin-top: 1rem; } }
+    .form-block .btn:hover {
+      background-color: #6b47b8;
+      transform: translateY(-0.1rem);
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+
+.game-info {
+  font-size: 1.6rem;
+  margin: auto 0;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  display: inline-block; }
+  .game-info__item {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border-radius: 1.4rem; }
+    .game-info__item:first-child {
+      margin-left: 3rem; }
+  .game-info__player1 {
+    background-color: #B22222;
+    color: white;
+    float: left; }
+    .game-info__player1::after {
+      content: "";
+      display: table;
+      clear: both; }
+  .game-info__player2 {
+    background-color: #1E90FF;
+    color: white; }
+  .game-info__code {
+    background-color: #eee;
+    color: black; }
+
+.grid {
+  margin-top: 1rem; }
+  .grid .row:last-child {
+    margin-bottom: 0; }
+
+.row {
+  max-width: 90%;
+  margin: 0 auto; }
+  .row:not(:last-child) {
+    margin-bottom: 3rem; }
+    @media only screen and (max-width: 56.25em) {
+      .row:not(:last-child) {
+        margin-bottom: 0; } }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row [class^=col] {
+    float: left; }
+    .row [class^=col]:not(:last-child) {
+      margin-right: 2rem; }
+      @media only screen and (max-width: 56.25em) {
+        .row [class^=col]:not(:last-child) {
+          margin-right: 1rem;
+          margin-bottom: 1.5rem; } }
+  .row .col-1-of-2 {
+    width: calc((100% - 2rem) / 2); }
+  .row .col-1-of-3 {
+    width: calc((100% - 2 * 2rem) / 3); }
+  .row .col-2-of-3 {
+    width: calc(2 * (100% - 2 * 2rem) / 3 + 2rem); }
+  .row .col-1-of-4 {
+    width: calc((100% - 3 * 2rem) / 4); }
+    @media only screen and (max-width: 56.25em) {
+      .row .col-1-of-4 {
+        width: 100%; } }
+  .row .col-2-of-4 {
+    width: calc(2 * (100% - 3 * 2rem) / 4 + 2rem); }
+  .row .col-3-of-4 {
+    width: calc(3 * (100% - 3 * 2rem) / 4 + 2 * 2rem); }
+    @media only screen and (max-width: 56.25em) {
+      .row .col-3-of-4 {
+        width: 100%; } }
+  .row .col-1-of-6 {
+    width: calc((100% - 5 * 2rem) / 6); }
+    @media only screen and (max-width: 37.5em) {
+      .row .col-1-of-6 {
+        width: calc((100% - 2 * 1rem) / 3); }
+        .row .col-1-of-6:nth-child(3n+3) {
+          margin-right: 0; } }
+  .row .col-1-of-8 {
+    width: calc((100% - 7 * 2rem) / 8); }
+    @media only screen and (max-width: 56.25em) {
+      .row .col-1-of-8 {
+        width: calc((100% - 3 * 1rem) / 4); }
+        .row .col-1-of-8:nth-child(4n+4) {
+          margin-right: 0; } }
+
+.navbar {
+  overflow: hidden;
+  background-color: #555; }
+  .navbar__item {
+    font-size: 1.6rem;
+    color: white;
+    float: left; }
+  .navbar__link {
+    text-align: center;
+    text-decoration: none;
+    padding: 1.4rem 1.6rem; }
+  .navbar__dropdown {
+    overflow: hidden; }
+  .navbar__dropbtn {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-size: inherit;
+    color: inherit;
+    margin: 0;
+    padding: 1.4rem 1.6rem; }
+  .navbar__link:hover, .navbar__dropdown:hover .navbar__dropbtn {
+    background-color: #333; }
+  .navbar__dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 16rem;
+    box-shadow: 0 0.8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
+    z-index: 1; }
+  .navbar__dropdown-content .navbar__dropdown-item {
+    cursor: pointer;
+    float: none;
+    color: black;
+    padding: 1.2rem 1.6rem;
+    text-decoration: none;
+    display: block;
+    text-align: left; }
+    .navbar__dropdown-content .navbar__dropdown-item:hover {
+      background-color: #ddd; }
+  .navbar__dropdown:hover .navbar__dropdown-content {
+    display: block; }
+
+.error__msg {
+  padding: 1rem;
+  font-size: 3.6rem; }
+
+.bg-dark {
+  background: #333744;
+  height: 100vh; }
+
+.header-title {
+  text-align: center;
+  color: #F7F7FA;
+  padding: 2.4rem;
+  font-size: 3.6rem;
+  margin-bottom: 5vh; }
+
+.centered-form {
+  margin: auto; }
+  .centered-form__box {
+    box-shadow: 0px 0px 1.7rem .1rem #1D1F26;
+    background: #F7F7FA;
+    padding: 2.4rem;
+    width: 40rem;
+    max-width: 70%;
+    min-width: 10rem;
+    margin: auto;
+    margin-bottom: 4.4rem; }
+  .centered-form h1 {
+    margin-bottom: 2.4rem;
+    font-size: 3.2rem; }
+  .centered-form label {
+    font-size: 1.4rem; }
+  .centered-form input {
+    border: .1rem solid #eeeeee;
+    padding: 1.2rem;
+    outline: none;
+    margin-top: .4rem;
+    margin-bottom: 1.6rem;
+    width: 100%; }
+  .centered-form button, .centered-form a {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    padding: 1.2rem;
+    background: #7C5CBF;
+    text-decoration: none;
+    border: none;
+    color: white;
+    font-size: 1.6rem;
+    transition: all .3s;
+    width: 100%; }
+  .centered-form button:hover {
+    background: #6b47b8; }
+
+#play {
+  margin-bottom: 0; }
+
+.game {
+  padding-left: 2rem; }
+
+.game-header {
+  margin: 0;
+  padding: 0;
+  background-color: #ccc; }
+
+@media only screen and (max-width: 37.5em) {
+  .game-info__item {
+    font-size: 1.2rem; } }
