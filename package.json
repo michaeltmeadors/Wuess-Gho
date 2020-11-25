@@ -9,7 +9,7 @@
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' public/css/styles.comp.css -o public/css/styles.prefix.css",
     "compress:css": "node-sass public/css/styles.prefix.css public/css/styles.css --output-style compressed",
     "build:css": "npm-run-all compile:sass prefix:css compress:css",
-    "start": "npm",
+    "start": "node src/index.js",
     "dev": "nodemon src/index.js -e js,html,css,scss,hbs"
   },
   "keywords": [],
